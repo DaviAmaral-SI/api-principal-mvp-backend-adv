@@ -8,7 +8,7 @@ A aplicação consome:
 
 * ViaCEP → para obter dados do endereço
 * Nominatim → para obter coordenadas geográficas de latitude e longitude
-* API de Distância (secundária) → para cálculo de distância entre endereços
+* [API de Distância](https://github.com/DaviAmaral-SI/api-secundaria-mvp-backend-adv) (Secundária) → para cálculo de distância entre endereços
 
 ---
 
@@ -17,7 +17,7 @@ A aplicação consome:
 A aplicação foi construída seguindo o padrão de microsserviços:
 
 * API Principal: gerenciamento de endereços
-* API Secundária: cálculo de distância
+* [API Secundária](https://github.com/DaviAmaral-SI/api-secundaria-mvp-backend-adv): cálculo de distância
 
 Comunicação entre APIs ocorre via HTTP.
 
