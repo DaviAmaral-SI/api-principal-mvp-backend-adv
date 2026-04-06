@@ -1,0 +1,15 @@
+version: "3.9"
+
+services:
+
+  api-enderecos:
+    build: ./api-enderecos
+    ports:
+      - "5000:5000"
+    depends_on:
+      - api-distancia
+
+  api-distancia:
+    build: ./api-distancia
+    ports:
+      - "5001:5001"
